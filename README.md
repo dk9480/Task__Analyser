@@ -69,4 +69,8 @@ http://127.0.0.1:8000/
     #Navigate to the frontend/ folder
     #Open index.html in your web browser
 
+## 📡 API Endpoints
+    POST /api/tasks/analyze/
+    Analyze and prioritize a list of tasks.
+<img width="1473" height="417" alt="image" src="https://github.com/user-attachments/assets/806e5cd5-8183-4591-ac25-065e1f1f75c4" />
 
