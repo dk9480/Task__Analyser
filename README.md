@@ -165,22 +165,23 @@ Weights:
 Urgency 80% | Importance 10% | Effort 10% | Dependencies 10%
 
 
+## 🏗 Project Structure
 Task__Analyser/
 ├── backend/
-│ ├── manage.py
-│ ├── config/
-│ │ ├── init.py
-│ │ ├── settings.py
-│ │ └── urls.py
-│ └── taskapp/
-│ ├── init.py
-│ ├── views.py
-│ ├── urls.py
-│ └── tests.py
+│   ├── manage.py
+│   ├── config/
+│   │   ├── __init__.py
+│   │   ├── settings.py
+│   │   └── urls.py
+│   └── taskapp/
+│       ├── __init__.py
+│       ├── views.py
+│       ├── urls.py
+│       └── tests.py
 ├── frontend/
-│ ├── index.html
-│ ├── styles.css
-│ └── script.js
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
 ├── requirements.txt
 └── README.md
 
