@@ -166,6 +166,7 @@ Urgency 80% | Importance 10% | Effort 10% | Dependencies 10%
 
 
 ## 🏗 Project Structure
+```bash
 Task__Analyser/
 ├── backend/
 │   ├── manage.py
@@ -184,8 +185,3 @@ Task__Analyser/
 │   └── script.js
 ├── requirements.txt
 └── README.md
-
-
-
-
-
