@@ -185,3 +185,35 @@ Task__Analyser/
 │   └── script.js
 ├── requirements.txt
 └── README.md
+```
+
+## 🧪 Running Tests
+
+To execute all backend tests, run:
+
+```bash
+cd backend
+python manage.py test
+```
+Test Suite Includes
+Urgency scoring
+Importance scoring
+Effort prioritization
+Dependency scoring
+Strategy differentiation
+
+
+## 🔮 Future Improvements
+
+Database persistence
+Dependency graph visualization
+Smarter urgency calculation (weekends/holidays)
+Eisenhower Matrix UI
+User authentication
+ML-based adaptive scoring
+Swagger/OpenAPI documentation
+Docker support
+PWA features
+
+## 👨‍💻 Developer
+Last project by DK Vijendra Kumar
