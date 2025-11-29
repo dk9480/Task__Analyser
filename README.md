@@ -95,6 +95,77 @@ http://127.0.0.1:8000/
 <img width="1903" height="909" alt="image" src="https://github.com/user-attachments/assets/23b1ecc2-f133-4f0b-bdf4-904409ae1ed2" />
 
 
+## 🧠 Algorithm Explanation
+
+The priority scoring algorithm weighs four factors with configurable weights.
+
+---
+
+### 1. **Urgency (40%)**
+Based on days until due date.
+
+- Overdue tasks → **100 urgency**
+- Formula:  
+(30 - days_until_due) / 30 * 100
+
+
+---
+
+### 2. **Importance (30%)**
+User rating scaled from 1–10 → 0–100.
+
+- Formula:  
+(importance / 10) * 100
+
+
+---
+
+### 3. **Effort (20%)**
+Lower effort results in a higher score.
+
+- Formula:
+(20 - estimated_hours) / 20 * 100
+
+
+---
+
+### 4. **Dependencies (10%)**
+Each dependency adds **+10**, emphasizing critical-path tasks.
+
+---
+
+## 🎯 Sorting Strategies
+
+### **Smart Balance (Default)**
+Weights:  
+Urgency 40% | Importance 30% | Effort 20% | Dependencies 10%
+
+Best for: **general productivity**
+
+---
+
+### **Fastest Wins**
+Weights:  
+Effort 60% | Urgency 20% | Importance 20% | Dependencies 10%
+
+Best for: **quick wins**
+
+---
+
+### **High Impact**
+Weights:  
+Importance 70% | Urgency 20% | Effort 10% | Dependencies 10%
+
+Best for: **strategic goals**
+
+---
+
+### **Deadline Driven**
+Weights:  
+Urgency 80% | Importance 10% | Effort 10% | Dependencies 10%
+
+
+
 
 
 
