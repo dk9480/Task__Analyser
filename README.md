@@ -202,6 +202,60 @@ python manage.py test
  - Dependency scoring
  - Strategy differentiation
 
+## 💡 Design Decisions
+
+### 1. No Database Persistence
+- Chose in-memory processing for simplicity and performance  
+- Focuses on core algorithm rather than data storage  
+- Reduces complexity for this assignment scope  
+
+### 2. Linear Scoring Approach
+- Used straightforward linear calculations for clarity  
+- Easy to understand, modify, and debug  
+- Provides predictable and consistent results  
+
+### 3. Manual CORS Handling
+- Implemented CORS headers directly in views  
+- Avoids external dependencies  
+- Ensures smooth frontend–backend communication  
+
+### 4. Strategy Pattern
+- Configurable weighting system demonstrates algorithm flexibility  
+- Allows users to adapt to different work contexts  
+- Easy to extend with new strategies  
+
+### 5. Comprehensive Error Handling
+- Basic validation for task data  
+- Circular dependency detection  
+- Graceful error responses with user-friendly messages  
+
+---
+
+## ⏱ Time Breakdown
+
+- Backend Development: **2 hours** (API setup, algorithm, endpoints)  
+- Frontend Development: **1.5 hours** (UI, API integration, styling)  
+- Testing & Debugging: **0.5 hours** (CORS fixes, error handling)  
+- Documentation: **0.5 hours** (README, code comments)  
+- Unit Tests: **0.5 hours** (test cases for scoring algorithm)  
+
+**Total Development Time: ~5 hours**
+
+---
+
+## 🏆 Bonus Challenges Implemented
+
+### ✅ Unit Tests
+- Comprehensive test suite for scoring algorithm  
+- Covers all four factors and strategies  
+- Ensures algorithm reliability  
+
+### ✅ Multiple Strategies
+- Four distinct prioritization approaches  
+- Configurable weighting system  
+- Demonstrates algorithm flexibility  
+
+
 
 ## 🔮 Future Improvements
 
