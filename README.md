@@ -57,11 +57,16 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 2. Run the Backend Server
+## 3. Run the Backend Server
 ```bash
 cd backend
 python manage.py runserver
 ```
 The backend will start at:
 http://127.0.0.1:8000/
+
+## 4. Install Dependencies
+    Navigate to the frontend/ folder
+    Open index.html in your web browser
+
 
