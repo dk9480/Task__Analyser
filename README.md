@@ -55,4 +55,13 @@ source venv/bin/activate
 ## 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
+```
+
+## 2. Run the Backend Server
+```bash
+cd backend
+python manage.py runserver
+```
+The backend will start at:
+http://127.0.0.1:8000/
 
