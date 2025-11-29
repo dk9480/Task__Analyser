@@ -66,7 +66,7 @@ The backend will start at:
 http://127.0.0.1:8000/
 
 ## 4. Install Dependencies
-    Navigate to the frontend/ folder
-    Open index.html in your web browser
+    #Navigate to the frontend/ folder
+    #Open index.html in your web browser
 
 
