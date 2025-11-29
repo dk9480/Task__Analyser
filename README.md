@@ -259,15 +259,19 @@ python manage.py test
 
 ## 🔮 Future Improvements
 
- - Database persistence
- - Dependency graph visualization
- - Smarter urgency calculation (weekends/holidays)
- - Eisenhower Matrix UI
- - User authentication
- - ML-based adaptive scoring
- - Swagger/OpenAPI documentation
- - Docker support
- - PWA features
+Given more time, I would implement:
+
+- **Database Persistence** for task history and user preferences  
+- **Dependency Graph Visualization** to show task relationships  
+- **Date Intelligence** considering weekends and holidays in urgency calculation  
+- **Eisenhower Matrix View** for visual task categorization  
+- **User Authentication** and personalized settings  
+- **Machine Learning** for adaptive scoring based on user behavior  
+- **Advanced Error Handling** with comprehensive logging  
+- **Docker Containerization** for easy deployment  
+- **REST API Documentation** with Swagger/OpenAPI  
+- **Progressive Web App (PWA) features** for mobile support  
+
 
 ## 👨‍💻 Developer
 Last project by DK Vijendra Kumar
