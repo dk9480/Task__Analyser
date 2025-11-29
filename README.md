@@ -79,4 +79,24 @@ http://127.0.0.1:8000/
 <img width="1478" height="882" alt="image" src="https://github.com/user-attachments/assets/134afdff-ae84-4a3c-80b3-6a4ac172ed15" />
 
 
+## 📸 Frontend Dashboard Preview
+<img width="1900" height="865" alt="image" src="https://github.com/user-attachments/assets/186ebe9c-2558-48ff-aaf5-3964678fdbda" />
+
+### 📊 Smart Balance Results
+<img width="1900" height="910" alt="image" src="https://github.com/user-attachments/assets/843f019f-3a81-4b0c-831e-f399866e868a" />
+
+### ⚡ Fastest Wins Strategy
+<img width="1899" height="905" alt="image" src="https://github.com/user-attachments/assets/da6cb54c-7913-419e-936b-1760136eda40" />
+
+### 📈 High Impact Results
+<img width="1898" height="905" alt="image" src="https://github.com/user-attachments/assets/b553a636-1b31-445d-8a9e-5c826f4dda02" />
+
+### 📅 Deadline Driven Results
+<img width="1903" height="909" alt="image" src="https://github.com/user-attachments/assets/23b1ecc2-f133-4f0b-bdf4-904409ae1ed2" />
+
+
+
+
+
+
 
