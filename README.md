@@ -274,4 +274,4 @@ Given more time, I would implement:
 
 
 ## 👨‍💻 Developer
-Last project by DK Vijendra Kumar
+Last project by D K Vijendra Kumar
