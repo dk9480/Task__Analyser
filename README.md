@@ -72,7 +72,8 @@ http://127.0.0.1:8000/
 ## 📡 API Endpoints
     POST /api/tasks/analyze/
     Analyze and prioritize a list of tasks.
-<img width="1476" height="629" alt="image" src="https://github.com/user-attachments/assets/1ee43106-6d10-4f2f-88de-905842c9874a" />
+<img width="1470" height="847" alt="image" src="https://github.com/user-attachments/assets/61ab64cb-2bd2-4093-b6b6-5d3dbb4e2554" />
+
 
     GET /api/tasks/suggest/  
     Get top 3 task suggestions.
