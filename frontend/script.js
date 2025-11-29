@@ -1,4 +1,3 @@
-
 // Strategy button functionality
 function setupStrategyButtons() {
     const strategyBtns = document.querySelectorAll('.strategy-btn');
@@ -188,3 +187,4 @@ function getRankEmoji(index) {
 document.addEventListener('DOMContentLoaded', function() {
     setupStrategyButtons();
 });
+
